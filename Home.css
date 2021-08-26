@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+.home{
+   display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #060b26;
+    height : 1000px;
+    width: 1000px;
+    margin:auto;
+    font-family: lato;
+    
+}
+.image{
+    
+   height: 280px;
+   width: 280px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ margin-left: auto;
+
+}
+.about{
+    font-size: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   margin-left: 50px;
+}
+.toKnowMore{
+    background-color: rgb(13, 174, 228);
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 250px;
+    
+}
+.toKnowMore:hover{
+    background-color: orangered;
+}

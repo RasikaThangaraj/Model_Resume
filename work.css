@@ -1,0 +1,31 @@
+.work{
+    display: flex;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px; 
+    width: 1000px;
+}
+table{
+   width: 100%;
+   background-color: lightblue;
+   margin: 200px 0 0 250px;
+   font-size: 14px;
+   border: 5px solid white;
+}
+.table{
+    border-collapse:collapse ;
+    border-spacing: 0;
+}
+th{
+    text-transform: uppercase;
+    padding: 0.8rem;
+    font-size: 16px;
+    background-color: #060b26;
+    color: white;
+}
+tr td{
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+}
+th, td{
+    border: 5px solid white;
+}

@@ -1,0 +1,32 @@
+.achieve-container{
+    position: relative;
+    color: white;
+}
+.achieve-container::after{
+    content: "";
+    
+    background-image:  url("./achieve.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 780px;
+}
+.list{
+    position: absolute;
+    top: 150px;
+    margin-left: 250px;
+    font-size: 20px;
+    padding: 10px;
+    color:white;
+    
+}
+li{
+    padding:20px 0 20px 0;
+   
+}
